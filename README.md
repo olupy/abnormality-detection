@@ -1,32 +1,32 @@
-#Automatic Abnormality Detection in Chest Radiographs using Deep Convolutional Neural Network
+# Automatic Abnormality Detection in Chest Radiographs using Deep Convolutional Neural Network
 
-##Overview
+## Overview
 This repository contains code and resources for building a deep learning model to automatically detect abnormalities in chest radiographs. The model is based on a Convolutional Neural Network (CNN) architecture, and it is designed to assist healthcare professionals in identifying potential chest abnormalities, such as lung diseases, Covid-19 infections, e.t.c
-##Features
-*Pre-trained Models: We provide pre-trained CNN models that you can fine-tune on your own chest radiograph dataset, reducing the need for extensive data collection and annotation.
+## Features
+* Pre-trained Models: We provide pre-trained CNN models that you can fine-tune on your own chest radiograph dataset, reducing the need for extensive data collection and annotation.
 
-*Data Preprocessing: A set of data preprocessing scripts and functions to prepare and augment your chest radiograph dataset for training the CNN model.
+* Data Preprocessing: A set of data preprocessing scripts and functions to prepare and augment your chest radiograph dataset for training the CNN model.
 
-*Model Training: Scripts and Jupyter notebooks to train, validate, and evaluate the CNN model, with customizable hyperparameters and settings.
+* Model Training: Scripts and Jupyter notebooks to train, validate, and evaluate the CNN model, with customizable hyperparameters and settings.
 
-*Inference: Tools for making predictions on new chest radiographs and visualizing the model's output, including detection of abnormal regions.
+* Inference: Tools for making predictions on new chest radiographs and visualizing the model's output, including detection of abnormal regions.
 
-*Visualization: Tools for visualizing training and evaluation metrics, model architectures, and more.
+* Visualization: Tools for visualizing training and evaluation metrics, model architectures, and more.
 
-*Integration: Instructions and code for integrating the trained model into your healthcare application or workflow.
+* Integration: Instructions and code for integrating the trained model into your healthcare application or workflow.
 
-##Prerequisites
+## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-*Python 3.6 or higher
-*PyTorch
-*NumPy
-*OpenCV
-*Matplotlib
-*Jupyter Notebook (for model training and visualization)
-*A labeled chest radiograph dataset (you can use your own or obtain a publicly available dataset)
+* Python 3.6 or higher
+* PyTorch
+* NumPy
+* OpenCV
+* Matplotlib
+* Jupyter Notebook (for model training and visualization)
+* A labeled chest radiograph dataset (you can use your own or obtain a publicly available dataset)
 
-##Getting Started
+## Getting Started
 1. Clone this repository to your local machine:
 ```
 git clone https://github.com/olupy/abnormality-detection.git
@@ -49,8 +49,8 @@ jupyter notebook train.ipynb
 
 7. Once the model is trained to your satisfaction, you can use it for inference and integrate it into your application or workflow.
 
-##Model Evaluation
+## Model Evaluation
 Evaluate the trained model's performance using various metrics and visualization tools provided in the repository.
 
-##Inference
+## Inference
 Use the trained model to make predictions on new chest radiographs and visualize the detected abnormal regions, if applicable.
